@@ -1,0 +1,5 @@
+question_id,keyword_top_ids,keyword_scores,embedding_top_ids,embedding_scores,required_ids,keyword_evidence_complete,embedding_evidence_complete,observation
+Q1,A1;A2,3;2,A2;T1,0.686446;0.581953,A1;A2,True,False,"Keyword selected ['A1', 'A2']; embeddings selected ['A2', 'T1']. Complete evidence requires both A1 and A2."
+Q2,A2;B1,2;1,A2;T1,0.585193;0.434761,A2,True,True,The paraphrase target A2 was retrieved at 0.585193.
+Q3,T1;A2,2;1,T1;B1,0.742027;0.471195,T1,True,True,The paraphrase target T1 was retrieved at 0.742027.
+Q4,A2;B1,1;1,T1;A2,0.347721;0.320827,absent,N/A,N/A,"The answer is absent, but nearest-neighbor retrieval still returned ['T1', 'A2']; a score is not proof of answerability."

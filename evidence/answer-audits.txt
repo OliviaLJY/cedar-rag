@@ -1,0 +1,26 @@
+Grounded answer audit
+Each answer uses only its embedding top-2 passages as factual evidence.
+
+=== Q1 ===
+Question: May a trained graduate student operate the laser alone at 19:00?
+Selected IDs: A2, T1
+[A2] The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+[T1] Laser training must be renewed every 12 months. A current training record is required before operating the laser.
+
+Answer: No. Whenever the laser is operating, two trained people must be present [A2]. The supplied passages do not establish the general access hours applicable at 19:00.
+Claim audit:
+Claim: Operating the laser alone is not allowed. Support: A2.
+Claim: Two trained people must be present whenever it operates. Support: A2.
+Claim: General access-hour evidence is missing from the supplied set. Support: inspection of supplied passages.
+Audit verdict: Supported; no outside facts added.
+
+=== Q4 ===
+Question: What is the laser wavelength?
+Selected IDs: T1, A2
+[T1] Laser training must be renewed every 12 months. A current training record is required before operating the laser.
+[A2] The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+
+Answer: The laser wavelength is not specified in the supplied passages.
+Claim audit:
+Claim: The supplied passages do not specify a laser wavelength. Support: inspection of both supplied passages; no chunk citation is invented.
+Audit verdict: Supported; no outside facts added.

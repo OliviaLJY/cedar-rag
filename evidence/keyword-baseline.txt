@@ -1,0 +1,22 @@
+Predicted required passages before retrieval: A1 and A2
+
+Question: May a trained graduate student operate the laser alone at 19:00?
+k: 2
+
+All scores:
+A1: score=3; matched=00, graduate, trained
+A2: score=2; matched=laser, trained
+B1: score=1; matched=laser
+T1: score=1; matched=laser
+T2: score=1; matched=trained
+B2: score=0; matched=(none)
+
+Selected passages:
+[A1] access.txt
+General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.
+
+[A2] access.txt
+The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+
+Manual score check for A1:
+Distinct query/source matches are 00, graduate, and trained, so score=3. The token 00 comes from the alphanumeric tokenizer splitting both 19:00 and the source times. Repeated words cannot increase a set-overlap score, and no stemming changes student/students.

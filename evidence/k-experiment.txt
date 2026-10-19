@@ -1,0 +1,16 @@
+Question: May a trained graduate student operate the laser alone at 19:00?
+Required evidence: A1 and A2
+Coverage = retrieved required chunks / 2
+
+k=1: A2 (0.686446)
+Required evidence coverage: 1/2 = 0.5
+All required evidence present: False
+
+k=3: A2 (0.686446); T1 (0.581953); B1 (0.532696)
+Required evidence coverage: 1/2 = 0.5
+All required evidence present: False
+
+Interpretation:
+At k=1, A2 gives only the two-person operating condition.
+At k=3, T1 adds a current-training condition and B1 adds a booking limit, but A1 is still missing.
+The added passages therefore do not establish the general access-hours condition, and Q1 coverage remains 1/2.

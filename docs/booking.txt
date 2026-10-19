@@ -1,0 +1,4 @@
+[B1] Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.
+
+[B2] Cancel an unused booking at least four hours before its start time.
+

@@ -1,0 +1,4 @@
+[T1] Laser training must be renewed every 12 months. A current training record is required before operating the laser.
+
+[T2] Visitors may enter the general laboratory only when accompanied by a trained member of staff.
+

@@ -1,0 +1,4 @@
+[A1] General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.
+
+[A2] The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+

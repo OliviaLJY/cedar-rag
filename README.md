@@ -6,7 +6,6 @@ The documents are classroom material, not real laboratory safety guidance.
 
 ## Submission details
 
-- Partner name(s): **TODO - add your name and any partner's name before submission.**
 - Personal reflection: replace the guidance in `REFLECTION.md` with your own response (150 words maximum per partner).
 - Python used for this run: 3.12
 - Embedding model: `sentence-transformers/all-MiniLM-L6-v2`, CPU
